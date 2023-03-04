@@ -12,17 +12,21 @@ figure.figsize: 7.5, 3.25
 
 ### COLORS
 
-figure.facecolor: efe9e6
-axes.facecolor: efe9e6
-axes.prop_cycle: cycler(color=["287271","495371"])
+figure.facecolor: 202f52
+axes.titlecolor: b3c1e1
+axes.facecolor: 202f52
+axes.prop_cycle: cycler(color=["white","fcc331"])
 axes.spines.top: False
 axes.spines.right: False
+axes.labelcolor: white
+legend.labelcolor: white
 
 ### OTHERS
 
-ytick.color: 000000
-xtick.color: 000000
-axes.edgecolor: 000000
+ytick.color: b3c1e1
+xtick.color: b3c1e1
+axes.edgecolor: b3c1e1
+axes.grid: True
 
 legend.fontsize: 10
 legend.frameon: False
